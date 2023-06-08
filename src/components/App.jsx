@@ -11,9 +11,9 @@ export default class App extends React.Component {
     bad: 0,
   };
 
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   countTotalFeedback = () => {
     const { good, neutral, bad } = this.state;
